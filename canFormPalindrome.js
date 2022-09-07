@@ -1,4 +1,4 @@
-function canFormPalindrome(str) {
+ function canFormPalindrome(str) {
   // Create a count array and initialize all
   // values as 0
   let NO_OF_CHARS = 256;
@@ -21,10 +21,11 @@ function canFormPalindrome(str) {
   }
 
   // Return true if odd count is 0 or 1,
-  console.log(true)
   return true;
 }
 
 canFormPalindrome("xxdnssuqevu")
 canFormPalindrome("xsudnvndusx")
 canFormPalindrome("xxdnssudnvu")
+
+exports.canFormPalindrome = canFormPalindrome;
